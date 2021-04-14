@@ -23,9 +23,14 @@ body {
     margin-bottom: 40px;
 }
 
+#title2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 .text {
     color: rgb(35, 221, 175);
-    text-align: left;
+    text-align: center;
 }
 
 @media only screen and (max-device-width: 700px) and (orientation: portrait){
