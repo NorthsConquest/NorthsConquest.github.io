@@ -33,7 +33,7 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-device-width: 700px) and (orientation: portrait){
+@media only screen and (max-device-width: 700px){
     #title1{
         font-size: 30px;
         margin-top: 30px;
@@ -43,8 +43,8 @@ body {
     }
 
     #img{
-        max-width:212px;
-        max-height:212px;
+        max-width:272px;
+        max-height:272px;
         width: auto;
         height: auto;
     }
@@ -63,14 +63,14 @@ body {
     }
 }
 
-@media only screen and (min-device-width: 1000px) and (orientation: portrait){
+@media only screen and (min-device-width: 701px){
     #title1{
         font-size: 50px;
         margin-top: 30px;
     }
 
     #subtitulo{
-        font-size: larger;
+        font-size: 20px;
     }
 
     #img{
@@ -87,9 +87,4 @@ body {
         height: auto;
     }
 
-    body{
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 60px;
-    }
 }
